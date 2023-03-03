@@ -4,7 +4,7 @@ echo "Start file rename"
 
 image_extensions=".jpg .jpeg .png .gif"
 
-for file in /Users/kabuk-gwangsoo/vc/*; do
+for file in *; do
 	if [[ -f "$file" ]]; then
 		extension="${file##*.}"
 	
