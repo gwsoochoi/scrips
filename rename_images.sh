@@ -2,7 +2,7 @@
 
 echo "Start file rename"
 
-image_extensions=".jpg .jpeg .png .gif"
+image_extensions=".jpg .jpeg .png .gif .psd"
 
 for file in *; do
 	if [[ -f "$file" ]]; then
